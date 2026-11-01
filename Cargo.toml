@@ -1,0 +1,13 @@
+[package]
+name = "flourish-core"
+version = "0.1.0"
+edition = "2021"
+description = "Pure domain contracts for the Flourish kernel"
+license = "MIT"
+publish = false  # Registry publication needs separate explicit approval.
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+url = "=2.5.8"
